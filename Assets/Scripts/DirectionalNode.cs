@@ -15,6 +15,7 @@ public class DirectionalNode : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         SwitchSprite();
+
     }
 
     // Update is called once per frame
@@ -38,4 +39,6 @@ public class DirectionalNode : MonoBehaviour
             sr.sprite = none;
         }
     }
+
+
 }
