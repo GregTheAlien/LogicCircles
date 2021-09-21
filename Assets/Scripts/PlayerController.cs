@@ -5,10 +5,14 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public bool right;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(!right)
+        {
+            transform.Rotate(Vector3.back * 180);
+        }
     }
 
     // Update is called once per frame
@@ -23,6 +27,7 @@ public class PlayerController : MonoBehaviour
         DirectionalNode dn = otherObj.GetComponent<DirectionalNode>();
         Debug.Log(dn.current);
 
+        
         //check direction
         float rot = 0;
         Vector3 dir = Vector3.zero;
@@ -37,7 +42,7 @@ public class PlayerController : MonoBehaviour
             rot = 90;
         }
         transform.Rotate(dir * rot);//.back goes right, .forward goes left
-
+        
 
         /*
         switch(dn.current)

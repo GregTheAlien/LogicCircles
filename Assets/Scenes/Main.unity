@@ -595,7 +595,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: left
 --- !u!61 &194947281
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -801,7 +801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0c32a6c42c577e4e8522644415c888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.0075
+  speed: 0.006
+  right: 0
 --- !u!50 &243134399
 Rigidbody2D:
   serializedVersion: 4
@@ -948,7 +949,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: left
 --- !u!61 &317501004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1074,7 +1075,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: left
 --- !u!61 &479773763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1958,7 +1959,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: none
 --- !u!61 &865771219
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3012,7 +3013,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: none
 --- !u!1 &1311742800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3932,7 +3933,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: none
+  current: right
 --- !u!61 &1591610328
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4878,7 +4879,7 @@ MonoBehaviour:
   none: {fileID: 21300000, guid: 816869171782be04d967a358de859fb9, type: 3}
   left: {fileID: 21300000, guid: 72212b0eef4012747b731adc0d8f3e94, type: 3}
   right: {fileID: 21300000, guid: ca0f23aa92e7eec468635a05f0b0a099, type: 3}
-  current: right
+  current: none
 --- !u!61 &2088106130
 BoxCollider2D:
   m_ObjectHideFlags: 0
